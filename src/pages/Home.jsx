@@ -1,17 +1,13 @@
-import { Loaders, Heros, Namee, Navbarr } from "../components";
+import { Loaders, Namee, Navbarr, ScrollToTop } from "../components";
+import image from "../assets/hero.jpg";
 const Home = () => {
   return (
-    <div className="page">
+    <div>
+      <ScrollToTop />
       <Loaders />
       <Navbarr />
       <Namee />
-      <Heros />
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus veniam
-        optio ratione nobis facilis quae repellat minus! Eligendi molestiae
-        error assumenda nam delectus provident laborum tempore corrupti? Eum,
-        sunt reprehenderit.
-      </p>
+      <img src={image} alt="" />
     </div>
   );
 };

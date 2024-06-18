@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.section`
   .header {
+    margin-top: 1em;
     width: 100%;
     display: flex;
     justify-content: space-between;

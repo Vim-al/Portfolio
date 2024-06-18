@@ -8,6 +8,10 @@ html,
 body {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow: visible;
   background: #a0a0a0;
 }
+/* 
+html::-webkit-scrollbar {
+  display: none;
+} */

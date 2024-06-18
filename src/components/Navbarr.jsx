@@ -5,7 +5,11 @@ const Navbarr = () => {
     <Wrapper>
       <div className="container">
         <nav>
-          <div>
+          <div className="logo">
+            <h3>Vimal Biyyapu</h3>
+          </div>
+
+          <div className="locations">
             <a href="#">About</a>
             <a href="#">Projects</a>
             <a href="#">Skills</a>

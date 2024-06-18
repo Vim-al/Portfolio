@@ -8,7 +8,7 @@ const Namee = () => {
   useGSAP(() => {
     gsap.from(".h1", 1.5, {
       delay: 4,
-      y: 700,
+      y: -700,
       stagger: {
         amount: 0.5,
       },
